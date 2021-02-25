@@ -1,0 +1,239 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+:root {
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
+.gameboard {
+    margin: 0 auto;
+    display: grid;
+    grid-gap: 1px;
+    text-align: center;
+    border: 15px solid black;
+    background-color: black;
+    grid-template-rows: repeat(var(--grid-rows), 25px);
+    grid-template-columns: repeat(var(--grid-cols), 25px);
+}
+
+.grid-item {
+    background-color: orange;
+}
+
+.study {
+    background-color: white;
+    margin-left: -5%;
+    grid-area: 1 / 1 / 5 / 8;
+}
+.study1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: -5%;
+    grid-area: 1 / 1 / 5 / 7;
+}
+
+.hall {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: -5%;
+    grid-area: 1 / 10 / 7 / 16;
+}
+
+.lounge {
+    background-color: white;
+    margin-right: -5%;
+    grid-area: 1 / 18 / 6 / 25;
+}
+
+.lounge1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-top: -5%;
+    grid-area: 1 / 18 / 6 / 25;
+}
+
+.dining-room {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: -5%;
+    grid-area: 9 / 17 / 17 / 25;
+}
+
+.dining-room1 {
+    margin-right: -8%;
+    background-color: white;
+    grid-area: 16 / 20 / 18 / 25;
+}
+
+.kitchen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-right: -5%;
+    margin-bottom: -5%;
+    grid-area: 20 / 18 / 26 / 25;
+}
+
+.ball-room {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    grid-area: 19 / 9 / 24 / 16;
+}
+
+.ball-room1 {
+    background-color: white;
+    margin-bottom: -13%;
+    grid-area: 23 / 11 / 26 / 14;
+}
+
+.conservatory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: -6%;
+    margin-bottom: -5%;
+    grid-area: 22 / 1 / 26 / 7;
+}
+
+.conservatory1 {
+    background-color: white;
+    margin-left: -7%;
+    margin-bottom: -6%;
+    grid-area: 21 / 1 / 22 / 6;
+}
+
+.billiard-room {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: -6%;
+    grid-area: 14 / 1 / 19 / 7;
+}
+
+.library {
+    background-color: white;
+    grid-area: 8 / 1 / 12 / 8;
+}
+
+.library1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    margin-left: -6%;
+    grid-area: 7 / 1 / 13 / 7;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    grid-area: 8 / 10 / 17 / 15;
+}
+
+.green-start {
+    font-size: 8px;
+    color: white;
+    background-color: green;
+    grid-area: 25 / 10 / 26 / 11;
+}
+
+.white-start {
+    font-size: 8px;
+    background-color: white;
+    grid-area: 25 / 14 / 26 / 15;
+}
+
+.peacock-start {
+    font-size: 8px;
+    color: white;
+    background-color: blue;
+    grid-area: 20 / 1 / 21 / 1;
+}
+
+.plum-start {
+    font-size: 8px;
+    color: white;
+    background-color: purple;
+    grid-area: 6 / 1 / 7 / 1;
+}
+
+.scarlett-start {
+    font-size: 8px;
+    background-color: red;
+    grid-area: 1 / 17 / 1 / 18;
+}
+
+.mustard-start {
+    font-size: 8px;
+    background-color: yellow;
+    grid-area: 7 / 24 / 8 / 25;
+}
+
+.wall {
+    grid-area: 25 / 7 / 26 / 10;
+}
+
+.wall1 {
+    grid-area: 25 / 15 / 26 / 18;
+}
+
+.wall2 {
+    grid-area: 1 / 9 / 1 / 10;
+}
+
+.wall3 {
+    grid-area: 1 / 16 / 1 / 17;
+}
+
+.wall4 {
+    grid-area: 6 / 24 / 7 / 25;
+}
+
+.wall5 {
+    grid-area: 8 / 24 / 9 / 25;
+}
+
+.wall6 {
+    grid-area: 18 / 24 / 19 / 25;
+}
+
+.wall7 {
+    grid-area: 24 / 17 / 25 / 18;
+}
+
+.wall8 {
+    grid-area: 24 / 7 / 25 / 8;
+}
+
+.wall9 {
+    grid-area: 19 / 1 / 20 / 2;
+}
+
+.wall10 {
+    grid-area: 5 / 1 / 6 / 2;
+}
+
+
+
+
+
